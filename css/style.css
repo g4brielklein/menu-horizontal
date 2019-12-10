@@ -1,18 +1,7 @@
-@font-face {
-	font-family: 'LilitaOne';
-	src: url("../fonts/LilitaOne-Regular.ttf");
-}
-
-#menu {
-	width: 360px;
-	position: absolute;
-	left: 50%;
-	margin-left: -180px;
-}
-
 #menu ul {
-	margin: 0;
 	padding: 0;
+	margin: 0;
+	background-color: #EDEDED;
 	list-style: none;
 }
 
@@ -20,14 +9,17 @@
 
 #menu ul li a {
 	padding: 2px 10px;
+	display: inline-block;
+
+	/* visual do link */
 	background-color: #EDEDED;
-	text-decoration: none;
-	font-family: LilitaOne;
 	color: #333;
-	font-size: 22px;
+	text-decoration: none;
+	border-bottom: 3px solid #EDEDED;
 }
 
 #menu ul li a:hover {
-	background-color: #333;
-	color: #EDEDED;
+	background-color: #D6D6D6;
+	color: #6D6D6D;
+	border-bottom: 3px solid #EA0000;
 }
