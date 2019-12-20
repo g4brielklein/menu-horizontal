@@ -1,25 +1,27 @@
 #menu ul {
-	padding: 0;
 	margin: 0;
-	background-color: #EDEDED;	
+	padding: 0;
 	list-style: none;
+	background-color: ;
 }
 
-#menu ul li { display: inline; }
+#menu ul li {
+	display: inline;
+}
 
 #menu ul li a {
-	padding: 2px 10px;
-	display: inline-block;
-
-	/* visual do link */
-	background-color: #EDEDED;
-	color: #333;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	font-family: Arial;
 	text-decoration: none;
-	border-bottom: 3px solid #EDEDED;
+	padding: 2px 10px;
+	border-bottom: 3px solid black;
 }
 
 #menu ul li a:hover {
-	background-color: #D6D6D6;
-	color: #6D6D6D;
-	border-bottom: 3px solid #EA0000;
+	background-color: white;
+	color: black;
+	font-size: 21px;
+	border-bottom: 3px solid red	;
 }
